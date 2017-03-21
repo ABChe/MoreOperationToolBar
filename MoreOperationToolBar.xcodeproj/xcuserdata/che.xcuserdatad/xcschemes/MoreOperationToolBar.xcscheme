@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F23AFD2E1E7FB1820086B8EF"
+               BuildableName = "MoreOperationToolBar.app"
+               BlueprintName = "MoreOperationToolBar"
+               ReferencedContainer = "container:MoreOperationToolBar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F23AFD471E7FB1830086B8EF"
+               BuildableName = "MoreOperationToolBarTests.xctest"
+               BlueprintName = "MoreOperationToolBarTests"
+               ReferencedContainer = "container:MoreOperationToolBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "F23AFD521E7FB1830086B8EF"
+               BuildableName = "MoreOperationToolBarUITests.xctest"
+               BlueprintName = "MoreOperationToolBarUITests"
+               ReferencedContainer = "container:MoreOperationToolBar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F23AFD2E1E7FB1820086B8EF"
+            BuildableName = "MoreOperationToolBar.app"
+            BlueprintName = "MoreOperationToolBar"
+            ReferencedContainer = "container:MoreOperationToolBar.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,23 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F23AFD2E1E7FB1820086B8EF"
+            BuildableName = "MoreOperationToolBar.app"
+            BlueprintName = "MoreOperationToolBar"
+            ReferencedContainer = "container:MoreOperationToolBar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +97,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "F23AFD2E1E7FB1820086B8EF"
+            BuildableName = "MoreOperationToolBar.app"
+            BlueprintName = "MoreOperationToolBar"
+            ReferencedContainer = "container:MoreOperationToolBar.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
